@@ -1,0 +1,8 @@
+test/
+.vscode/
+*.out
+*.o
+*.so
+app
+*.tmp
+TODO
