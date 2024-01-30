@@ -379,6 +379,7 @@ int drawGui(void) {
                 if (managers[i] != NULL) {
                     SDL_DestroyTexture(managers[i]->texture);
                     free(managers[i]);
+                    managers[i] = NULL;
                 }
             }
             randomManagerPosition(managers[0]);

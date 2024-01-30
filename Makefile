@@ -14,4 +14,4 @@ demo:
 	gcc ${CFLAGS} -o app demo.o -lm -ldl `sdl2-config --libs` -lSDL2_image
 
 clean:
-	rm app main.o a.out main.o person.o 2>/dev/null || true
+	$(RM) app main.o a.out main.o person.o 2>/dev/null
